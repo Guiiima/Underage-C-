@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 namespace Underage.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("/underage")]
 public class UnderageController : ControllerBase
 {
     private UnderageDbContext _context;
@@ -27,7 +27,7 @@ public class UnderageController : ControllerBase
         }
         [HttpPost]
         [Route("new")]
-        public async Task<ActionResult<DadosPessoais>> PostEvent([FromForm] DadosPessoais dados)
+        public async Task<ActionResult<DadosPessoais>> PostEvent([FromBody] DadosPessoais dados)
         {
             if (_context is null || _context.DadosPessoais is null)
                 return NotFound();
