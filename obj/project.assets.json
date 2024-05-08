@@ -5995,11 +5995,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\luanp\\Downloads\\Underage-C-\\Underage.csproj",
+      "projectUniqueName": "C:\\Users\\luanp\\OneDrive\\Área de Trabalho\\Underage-C-\\Underage.csproj",
       "projectName": "Underage",
-      "projectPath": "C:\\Users\\luanp\\Downloads\\Underage-C-\\Underage.csproj",
+      "projectPath": "C:\\Users\\luanp\\OneDrive\\Área de Trabalho\\Underage-C-\\Underage.csproj",
       "packagesPath": "C:\\Users\\luanp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\luanp\\Downloads\\Underage-C-\\obj\\",
+      "outputPath": "C:\\Users\\luanp\\OneDrive\\Área de Trabalho\\Underage-C-\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\luanp\\AppData\\Roaming\\NuGet\\NuGet.Config"
